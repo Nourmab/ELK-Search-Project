@@ -1,0 +1,59 @@
+button.css-19rxjzo {
+    color: rgb(135, 98, 121);
+    padding-left: 30px;
+    padding-right: 30px;
+   
+}
+
+
+    /* Customize the column width and spacing */
+    .stColumns {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 1rem;
+    }
+    .stColumn {
+        flex: 1;
+        margin-right: 10px;
+    }
+    .stColumn:last-child {
+        margin-right: 0;
+    }
+
+    /* Style the spinner */
+    .stSpinner {
+        color: #00aaff;  /* Spinner color */
+    }
+
+    /* Style images to have rounded corners and shadow */
+    img {
+        border-radius: 10px;
+        box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 10px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Customize Toast */
+    .stToast {
+        background-color: #7f4979;  /* Red color for error toast */
+        color: white;
+    }
+
+    /* General layout improvements */
+    .stApp {
+        background-color: #f5f5f5;
+        padding: 2rem;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #1f155b;
+    }
+
+    .stButton > button {
+        background-color: #6b9cac;  /* Button color */
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        border: none;
+    }
